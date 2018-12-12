@@ -10,7 +10,7 @@ import Foundation
 import RealmSwift
 
 
-class Task: Object {
+class Task: Object {  
     // Realm changes
     @objc dynamic var taskTitle: String = ""
     @objc dynamic var completed: Bool = true

@@ -76,8 +76,6 @@ class AddTaskViewController: UIViewController {
         newTask.dueDate = dueDatePicker.date
         
         TaskManager.sharedInstance.addTask(task: newTask)
-    
-     self.performSegue(withIdentifier: "unwindToTaskTable", sender: self)
     }
 }
 
